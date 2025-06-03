@@ -15,6 +15,6 @@ for file in "$RELEASE_DIR"/*; do
   if [[ -f "$file" ]]; then
     filename=$(basename "$file")
     sha256=$(sha256sum "$file" | awk '{print $1}')
-    echo "$sha256  $filename" >> "$OUTPUT_FILE"
+    echo "$sha256 $filename" >> "$OUTPUT_FILE"
   fi
 done
