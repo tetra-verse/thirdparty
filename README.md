@@ -1,7 +1,7 @@
 # The Other Projects Depends
 
-`use command:` 
+Use command:
 
-`sha256sum.exe json-3.11.3.tar.gz >> sha256sums.txt`
+`./sha256sums.txt`
 
-to append a new kit's SHA256
+to update all kits' SHA256
