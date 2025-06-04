@@ -2,6 +2,6 @@
 
 Use command:
 
-`./sha256sums.txt`
+`./update_sha256sums.sh`
 
 to update all kits' SHA256
