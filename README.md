@@ -1,7 +1,7 @@
 # The Other Projects Depends
 
-Use command:
+when update new libs, then just use: 
 
-`./update_sha256sums.sh`
+`git push origin -f v0.0.1`
 
-to update all kits' SHA256
+the releases will update itself.
