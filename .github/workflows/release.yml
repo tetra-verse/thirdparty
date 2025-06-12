@@ -21,7 +21,7 @@ jobs:
     - name: Generate SHA256 Hash
       run: |
         cd releases
-        sha256sum * > ../sha256sums.txt
+        sha256sum * | awk '{print $1 " " $2}' > ../sha256sums.txt
         cd ..
 
     - name: Create GitHub Release
