@@ -2,6 +2,6 @@
 
 when update new libs, then just use: 
 
-`git push origin -f v0.0.1`
+`./release.sh`
 
 the releases will update itself.
