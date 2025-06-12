@@ -1,9 +1,9 @@
 #!/bin/bash
 
-git tag -d v1.0.0
+git tag -d v0.0.1
 
-git push origin --delete v1.0.0
+git push origin --delete v0.0.1
 
-git tag v1.0.0
+git tag v0.0.1
 
-git push origin v1.0.0
+git push origin v0.0.1
